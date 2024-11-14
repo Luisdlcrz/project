@@ -7,4 +7,5 @@ appdirs
 yfinance
 riskfolio
 numpy
+scipy.optimize
 minimize
