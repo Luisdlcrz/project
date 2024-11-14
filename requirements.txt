@@ -1,11 +1,11 @@
-streamlit
-matplotlib.pyplot
-datetime
-plotly.graph_objs
-pandas
-appdirs
-yfinance
-riskfolio
-numpy
-scipy.optimize
-minimize
+import streamlit as st
+import matplotlib.pyplot as plt
+import datetime
+import plotly.graph_objs as go
+import pandas as pd
+import appdirs as ad
+ad.user_cache_dir = lambda *args: "/tmp"
+import yfinance as yf
+import riskfolio as rp
+import numpy as np
+from scipy.optimize import minimize
