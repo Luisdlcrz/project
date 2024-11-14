@@ -1,0 +1,10 @@
+streamlit
+matplotlib.pyplot
+datetime
+plotly.graph_objs
+pandas
+appdirs
+yfinance
+riskfolio
+numpy
+minimize
